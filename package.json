@@ -1,9 +1,12 @@
 {
-  "name": "project_countdown_timer",
-  "version": "1.0.0",
+  "name": "project_countdown_timer-rida",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin" : {
+    "project_countdown_timer" : "./timer.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

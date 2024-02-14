@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { differenceInSeconds } from "date-fns";
 import inquirer from "inquirer";
 const res = await inquirer.prompt({
